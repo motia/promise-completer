@@ -34,7 +34,7 @@ await shutdownPromise;
 Without compromise on type checking. This package allows you to write the code.
 
 ```javascript
-var Completer = require('node-completer');
+var Completer = require('promise-completer').default;
 const shutdown = new Completer;
 
 function asyncComputation() {
